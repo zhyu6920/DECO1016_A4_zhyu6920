@@ -1,0 +1,49 @@
+
+
+@media screen and (max-width: 1000px) {
+    .w1000{ width: 100%; }
+    .logo{ float: left; }
+    .logo img{max-height: 50px;margin-left:  10px;}
+    .zhce a {color: #fff;  line-height: 50px;  margin-right: 10px;  font-size: 18px;  }
+    .zhce a:last-child{ margin-right: 10px; }
+    .train_banner{ width: 100%; }
+    .bg3{width: 100%;}
+    .w800{ width: 90%; padding: 3% 5%; }
+
+}
+
+
+@media screen and (max-width: 769px) {
+    .cont1 {width: 96%;  border: 0;  padding: 20px 2%;  background-color: #eceeed;  float: left;  }
+    .tijiao{ text-align: center;}
+    .cont2 {float: right;  width: 100%;  background: url(../images/msgl2.jpg) no-repeat center left; padding-left: 30px; text-align: center; margin-top: 3px; }
+
+    .cont3 li{ width:100%;float: left; margin-right: 0;  text-align: center; }
+    .cont4{width:100%; }
+    .cont4_left {float: left;  width: 98%;  text-align: center;  }
+    .cont4_left img {width: 90%;  height: auto;  padding: 5%;  border:0;  }
+    .cont4_right { width: 96%;  float: inherit;  padding: 2%; line-height: 26px;  }
+    .cont5 {width: 100%;  float: inherit;  }
+    .cont5-cont li a:nth-child(odd){ margin: 0; }
+    .cont5-cont li a{ width: 50%; }
+
+    #fixedBox #fixedBox_Con{ width: 100%; }
+    #fixedBox #fixedBox_Con ul li.li1{display: none;}
+    #fixedBox #fixedBox_Con ul li.li2{
+        width: 60%;
+        margin-top: 16px;
+        background: #fff;
+        height: 44px;
+        border-radius: 7px;
+        color: #000;
+    }
+    #fixedBox #fixedBox_Con ul li.li3{
+        width: 35%;
+        margin-top: 16px;
+        background: #F60;
+        height: 44px;
+        margin-left: 10px;
+        border-radius: 7px;
+        color: #fff;
+    }
+}
